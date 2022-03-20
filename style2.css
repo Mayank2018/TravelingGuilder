@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+*{
+    /*background-color: rgb(54 83 20);*/
+	background-color: rgb(22 101 52 );
+}
+.heading h1{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: 'Fugaz One', cursive;
+}
+.heading h4{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fugaz One', cursive;
+}
+
+#navbarNav{
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+     
+    padding: 10px;
+}
+.card-1 img{
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ 
+}
+.card-2 img{
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card-3 img{
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card-4 img{
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card-5 img{
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}

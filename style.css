@@ -1,0 +1,46 @@
+/* important default settings */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fugaz+One&display=swap');
+body,
+html {
+  padding: 0;
+  margin: 0;
+  /* use the following only if you are able to scroll past the image to see a white area (this is the <body> peeking out) above or below the image */
+  overflow: hidden;
+}
+
+.background-image {
+  /* image url  */
+  background-image: url("hill.jpg");
+
+  /* make the image full height */
+  height: 100vh;
+
+  /* center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-style h1{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fugaz One', cursive;
+  font-size: 80px;
+justify-content: center;
+padding-top: 300px;
+padding-left: 50px;
+color: white;
+text-shadow: 5px 5px black;
+position:relative;
+}
+@media (max-width: 800px){
+  .background-style h1{
+    font-size: 40px;
+  }
+}
+.button{
+padding-left: 50px;
+padding-top: 10px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#navbarNav{
+  justify-content: center;
+}
